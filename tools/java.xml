@@ -81,7 +81,7 @@
                                 <invokerPackage>${generator.package.name}</invokerPackage>
                                 <ensureUniqueParams>true</ensureUniqueParams>
                                 <groupId>io.github.che-incubator</groupId>
-                                <artifactId>devfile-java-client</artifactId>
+                                <artifactId>devfile-api</artifactId>
                                 <artifactVersion>1.0-SNAPSHOT</artifactVersion>
                                 <sourceFolder>src/main/java</sourceFolder>
                                 <serializableModel>false</serializableModel>

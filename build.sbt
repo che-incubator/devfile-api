@@ -1,7 +1,7 @@
 lazy val root = (project in file(".")).
   settings(
     organization := "io.github.che-incubator",
-    name := "devfile-java-client",
+    name := "devfile-api",
     version := "1.0-SNAPSHOT",
     scalaVersion := "2.11.4",
     scalacOptions ++= Seq("-feature"),

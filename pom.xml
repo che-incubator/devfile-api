@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.che-incubator</groupId>
-    <artifactId>devfile-java-client</artifactId>
+    <artifactId>devfile-api</artifactId>
     <packaging>jar</packaging>
-    <name>devfile-java-client</name>
+    <name>devfile-api</name>
     <version>1.0-SNAPSHOT</version>
     <url>https://github.com/openapitools/openapi-generator</url>
     <description>OpenAPI Java</description>
