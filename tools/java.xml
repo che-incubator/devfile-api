@@ -71,10 +71,12 @@
                             <generateApiTests>false</generateApiTests>
                             <generateModelTests>false</generateModelTests>
                             <configOptions>
-                                <projectName>kubernetes-java-client</projectName>
-                                <projectDescription>Java client for Kubernetes.</projectDescription>
+                                <projectName>devfile-api</projectName>
+                                <projectDescription>Auto generated OpenAPI Java library for Devfile.</projectDescription>
                                 <projectVersion>${generator.client.version}</projectVersion>
-                                <projectLicenseName>Apache V2</projectLicenseName>
+                                <projectLicenseName>EPL-2.0</projectLicenseName>
+                                <licenseName>EPL-2.0</licenseName>
+                                <licenseUrl>https://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.txt</licenseUrl>
                                 <sortParamsByRequiredFlag>true</sortParamsByRequiredFlag>
                                 <modelPackage>${generator.package.name}.models</modelPackage>
                                 <apiPackage>${generator.package.name}.apis</apiPackage>
@@ -83,6 +85,14 @@
                                 <groupId>io.github.che-incubator</groupId>
                                 <artifactId>devfile-api</artifactId>
                                 <artifactVersion>1.0-SNAPSHOT</artifactVersion>
+                                <artifactDescription>Auto generated OpenAPI Java library for Devfile.</artifactDescription>
+                                <scmConnection>scm:git:git@github.com:che-incubator/devfile-api.git</scmConnection>
+                                <scmDeveloperConnection>scm:git:git@github.com:che-incubator/devfile-api.git</scmDeveloperConnection>
+                                <scmUrl>https://github.com/che-incubator/devfile-api</scmUrl>
+                                <developerName>Vladyslav Zhukovskyi</developerName>
+                                <developerEmail>vzhukovs@redhat.com</developerEmail>
+                                <developerOrganization>Red Hat</developerOrganization>
+                                <developerOrganizationUrl>https://redhat.com/</developerOrganizationUrl>
                                 <sourceFolder>src/main/java</sourceFolder>
                                 <serializableModel>false</serializableModel>
                                 <bigDecimalAsString>false</bigDecimalAsString>
